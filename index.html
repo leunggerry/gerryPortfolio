@@ -3,44 +3,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="res/css/materialize.css" />
     <link rel="stylesheet" href="./res/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gerry Leung - Software Developer</title>
   </head>
 
-  <!-- Header Section -->
-  <header>
-    <h1>
-      <a href="/">Gerry Leung</a>
-    </h1>
-    <!-- Navigation Bar -->
-    <nav>
-      <ul>
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
-        <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
-          <a href="#contact-me">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
   <!-- Body Section -->
   <body>
-    <section id="about-me" class="about">
-      <h2 class="section-title">About Me</h2>
-      <p>Welcome to my website, I hope you enjoy the projects that I have created here on this website.</p>
-    </section>
-    <section id="work" class="work">
-      <h2 class="section-title">Projects</h2>
-    </section>
-    <section id="contact-me" class="contact">
-      <h2 class="section-title">Contact Me</h2>
-    </section>
-  </body>
+    <div class="container">
+      <!-- Header Top row -->
+      <header>
+        <div class="row title-row">
+          <h1>
+            <a href="/">Gerry Leung</a>
+          </h1>
+        </div>
+      </header>
+      <!-- Top Navigation Bar -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
 
-  <footer></footer>
+      <!-- Page Layout -->
+      <div class="row">
+        <section class="profile">
+          <h3>Amateur Developer</h3>
+        </section>
+        <section id="about-me" class="about">
+          <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <!-- <div>
+        <p>
+          Welcome to my website, I hope you enjoy the projects that I have created here on this
+          website.
+        </p>
+        </div> -->
+          <div>
+            <h3 class="about-me who-am-i">Who Am I?</h3>
+          </div>
+          <div>
+            <p>
+              I am currently a software developer who is working in the telecommunications space. I
+              was working in the telecommunications industry every since I graduated from university.
+              During my time here, I eventually thought that I needed to do something different. I
+              decided to join a bootcamp to level up my skills as a programmer. I started dabbling in
+              the full stack space, learning about web development doing little bit of JavaScript and
+              CSS programming and I found my new love in software development. I hope that my
+              projects can show my new found love and my process in becoming a better developer
+              everyday.
+            </p>
+          </div>
+        </section>
+
+        <section id="work" class="work">
+          <div class="section-header">
+            <h2 class="section-title">Projects</h2>
+          </div>
+        </section>
+        <section id="contact-me" class="contact">
+          <div class="section-header">
+            <h2 class="section-title">Contact Me</h2>
+          </div>
+          <div>
+            <p>contact info place holder</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="res/js/materialize.js"></script>
+  </body>
 </html>
