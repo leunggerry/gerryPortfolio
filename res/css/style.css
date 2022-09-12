@@ -47,7 +47,7 @@ header nav ul li a {
 /* Body Profile Section */
 
 .profile {
-    background-image: url(../images/untitled-185.jpg);
+    background-image: url("/res/images/untitled-185.jpg");
     width: auto;
     height: 600px;
     background-size: cover;
