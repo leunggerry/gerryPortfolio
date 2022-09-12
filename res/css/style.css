@@ -1,0 +1,85 @@
+/* Global variables*/
+:root {
+    --primary-color: #6f6b5e;
+    --secondary-color: #9c9691;
+    --tertiary-color: #c2c8d1;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #c2c8d1;
+}
+
+/* Global stylings */
+header, body, footer {
+    padding-left: 45px;
+}
+/* Body Styles -- start */
+
+
+/* Body Styles -- end */
+
+/* Header Styles -- start */
+header a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0px 5px;
+    padding: 5px 5px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10 rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid var(--primary-text-color);
+}
+
+/* Header Styles -- end */
+
+/* Body Profile Section */
+
+.profile {
+    background-image: url(../images/untitled-185.jpg);
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile h3 {
+    color: var(--primary-text-color);
+    text-align: right;
+}
+
+
+/* Footer - start */
+.page-footer {
+    background-color: var(--primary-color);
+}
+/* Footer - end */
+/* section titles */
+
+.section-title {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+/* Card Styles */
+.card {
+    background-color: var(--secondary-color);
+}
+
+/* media links */
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
