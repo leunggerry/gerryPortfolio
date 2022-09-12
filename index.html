@@ -7,85 +7,243 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- Import materialize.css -->
     <link type="text/css" rel="stylesheet" href="res/css/materialize.css" />
+    <!-- Google API icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="./res/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gerry Leung - Software Developer</title>
   </head>
 
   <!-- Body Section -->
-  <body>
+  <body class="blue-grey darken-4">
+    <!-- Header Top row -->
+
     <div class="container">
-      <!-- Header Top row -->
-      <header>
-        <div class="row title-row">
-          <h1>
-            <a href="/">Gerry Leung</a>
-          </h1>
-        </div>
-      </header>
       <!-- Top Navigation Bar -->
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="row">
+        <div class="nav-wrapper">
+          <nav>
+            <h1><a href="/" class="brand-logo">Gerry Leung</a></h1>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li>
+                <a href="#about-me">About Me</a>
+              </li>
+              <li>
+                <a href="#work">Work</a>
+              </li>
+              <li>
+                <a href="#footer">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
       <!-- Page Layout -->
-      <div class="row">
-        <section class="profile">
-          <h3>Amateur Developer</h3>
-        </section>
-        <section id="about-me" class="about">
-          <div class="section-header">
-            <h2 class="section-title">About Me</h2>
-          </div>
-          <!-- <div>
+      <main>
+        <div class="row">
+          <div class="s12 m9 l9 xl9">
+            <section class="profile">
+              <h3>Amateur Developer</h3>
+            </section>
+            <div class="divider"></div>
+            <div class="section">
+              <section id="about-me" class="about">
+                <div class="section-header">
+                  <h3 class="section-title">About Me</h3>
+                </div>
+                <!-- <div>
         <p>
           Welcome to my website, I hope you enjoy the projects that I have created here on this
           website.
         </p>
         </div> -->
-          <div>
-            <h3 class="about-me who-am-i">Who Am I?</h3>
+                <div>
+                  <h5 class="about-me who-am-i white-text">Who Am I?</h5>
+                </div>
+                <div>
+                  <p class="flow-text white-text">
+                    I am currently a software developer who is working in the telecommunications
+                    space. I was working in the telecommunications industry every since I graduated
+                    from university. During my time here, I eventually thought that I needed to do
+                    something different. I decided to join a bootcamp to level up my skills as a
+                    programmer. I started dabbling in the full stack space, learning about web
+                    development doing little bit of JavaScript and CSS programming and I found my new
+                    love in software development. I hope that my projects can show my new found love
+                    and my process in becoming a better developer everyday.
+                  </p>
+                </div>
+              </section>
+            </div>
+
+            <div class="divider"></div>
+            <div class="section">
+              <section id="work" class="work">
+                <div class="section-header">
+                  <h3 class="section-title">Projects</h3>
+                </div>
+
+                <div class="row">
+                  <!-- GIT SOCIAL card -->
+                  <div class="col s12 m6 l6">
+                    <div class="card blue-grey darken-2 white-text">
+                      <div class="card-image">
+                        <img
+                          src="res/images/project-images/landing-page.png"
+                          alt="git social landing page image"
+                        />
+                        <span class="card-title">Git Social</span>
+                      </div>
+                      <div class="card-content">
+                        <p class="flow-text">
+                          This is project I worked on with several others to build this professional
+                          social app to connect with others in looking to build projects together
+                          with other developers
+                        </p>
+                      </div>
+                      <div class="card-action">
+                        <a href="https://github.com/leunggerry/git-social">Github</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Project 1 FoodDr -->
+                  <div class="col s12 m6 l6">
+                    <div class="card blue-grey darken-2 white-text">
+                      <div class="card-image">
+                        <img
+                          src="res/images/project-images/foodDr.png"
+                          alt="Food Doctor application imaage"
+                        />
+                        <span class="card-title">FooDr</span>
+                      </div>
+                      <div class="card-content">
+                        <p class="flow-text">
+                          This is the FoodDr (Food Doctor), where the user provides a location where
+                          they want food recommendations and we provide some options
+                        </p>
+                      </div>
+                      <div class="card-action">
+                        <a href="https://github.com/leunggerry/projectAwesome">Github</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="divider"></div>
+                <br />
+                <div class="row">
+                  <!-- weather dashboard -->
+                  <div class="col s12 m6 l6 xl4">
+                    <div class="card blue-grey darken-2 white-text">
+                      <div class="card-image">
+                        <img
+                          src="res/images/project-images/weather-dashboard.png"
+                          alt="git social landing page image"
+                        />
+                        <span class="card-title">Git Social</span>
+                      </div>
+                      <div class="card-content">
+                        <p class="flow-text">
+                          This is project I worked on with several others to build this professional
+                          social app to connect with others in looking to build projects together
+                          with other developers
+                        </p>
+                      </div>
+                      <div class="card-action">
+                        <a href="https://github.com/leunggerry/weather_dashboard">Github</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l6 xl4">
+                    <div class="card blue-grey darken-2 white-text">
+                      <div class="card-content">
+                        <span class="card-title">README generator</span>
+                        <p class="flow-text">
+                          This is a README.md generator for projects given several user inputs
+                        </p>
+                      </div>
+                      <div class="card-action">
+                        <a href="https://github.com/leunggerry/readme_generator">Github</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m6 l6 xl4">
+                    <div class="card blue-grey darken-2 white-text">
+                      <div class="card-image">
+                        <img
+                          src="res/images/project-images/work-day-scheduler.png"
+                          alt="Picture of the workday scheduler app"
+                        />
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title">Workday Scheduler</span>
+                        <p class="flow-text">
+                          This front-end application uses localStorage to to help create an hourly
+                          work schedule to time block meetings and work tasks
+                        </p>
+                      </div>
+                      <div class="card-action">
+                        <a href="https://github.com/leunggerry/readme_generator">Github</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
-          <div>
-            <p>
-              I am currently a software developer who is working in the telecommunications space. I
-              was working in the telecommunications industry every since I graduated from university.
-              During my time here, I eventually thought that I needed to do something different. I
-              decided to join a bootcamp to level up my skills as a programmer. I started dabbling in
-              the full stack space, learning about web development doing little bit of JavaScript and
-              CSS programming and I found my new love in software development. I hope that my
-              projects can show my new found love and my process in becoming a better developer
-              everyday.
+        </div>
+      </main>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h5 class="white-text">Contact</h5>
+            <p class="white-text">
+              For contact information, please use one of the methods on the right
             </p>
           </div>
-        </section>
-
-        <section id="work" class="work">
-          <div class="section-header">
-            <h2 class="section-title">Projects</h2>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contact</h5>
+            <ul>
+              <li>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.49933 0.25C3.49635 0.25 0.25 3.49593 0.25 7.50024C0.25 10.703 2.32715 13.4206 5.2081 14.3797C5.57084 14.446 5.70302 14.2222 5.70302 14.0299C5.70302 13.8576 5.69679 13.4019 5.69323 12.797C3.67661 13.235 3.25112 11.825 3.25112 11.825C2.92132 10.9874 2.44599 10.7644 2.44599 10.7644C1.78773 10.3149 2.49584 10.3238 2.49584 10.3238C3.22353 10.375 3.60629 11.0711 3.60629 11.0711C4.25298 12.1788 5.30335 11.8588 5.71638 11.6732C5.78225 11.205 5.96962 10.8854 6.17658 10.7043C4.56675 10.5209 2.87415 9.89918 2.87415 7.12104C2.87415 6.32925 3.15677 5.68257 3.62053 5.17563C3.54576 4.99226 3.29697 4.25521 3.69174 3.25691C3.69174 3.25691 4.30015 3.06196 5.68522 3.99973C6.26337 3.83906 6.8838 3.75895 7.50022 3.75583C8.1162 3.75895 8.73619 3.83906 9.31523 3.99973C10.6994 3.06196 11.3069 3.25691 11.3069 3.25691C11.7026 4.25521 11.4538 4.99226 11.3795 5.17563C11.8441 5.68257 12.1245 6.32925 12.1245 7.12104C12.1245 9.9063 10.4292 10.5192 8.81452 10.6985C9.07444 10.9224 9.30633 11.3648 9.30633 12.0413C9.30633 13.0102 9.29742 13.7922 9.29742 14.0299C9.29742 14.2239 9.42828 14.4496 9.79591 14.3788C12.6746 13.4179 14.75 10.7025 14.75 7.50024C14.75 3.49593 11.5036 0.25 7.49933 0.25Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path></svg
+                ><a href="https://github.com/leunggerry" class="white-text"> GitHub</a>
+              </li>
+              <li>
+                <a href="mailto:leunghg@mail.com" class="white-text"
+                  ><i class="material-icons">email</i>leunghg@mail.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/__coding.journey__/" class="white-text"
+                  ><img
+                    src="https://img.icons8.com/color/24/000000/instagram-new--v1.png"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
           </div>
-        </section>
-        <section id="contact-me" class="contact">
-          <div class="section-header">
-            <h2 class="section-title">Contact Me</h2>
-          </div>
-          <div>
-            <p>contact info place holder</p>
-          </div>
-        </section>
+        </div>
       </div>
-    </div>
-    <footer></footer>
+      <div id="footer" class="footer-copyright">
+        <div class="container">© 2022 Copyright Text</div>
+      </div>
+    </footer>
+
     <script src="res/js/materialize.js"></script>
   </body>
 </html>
