@@ -1,5 +1,8 @@
 # Gerry Leung's Portfoilio
 
+## Live Website
+https://leunggerry.github.io/gerryPortfolio/
+
 ## Description
 Welcome to my portfolio. I will be updating this website with new content regualarly with new projects and new styles. As I continue working in the full-stack development this portfolio will be updated with more and more projects.
 
